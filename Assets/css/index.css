@@ -213,9 +213,9 @@ nav a:hover{
     padding-right: 40px;
 }
 .header2{
-    width: 80%;
+    width: 90%;
     height: 80%;
-    background-color: #F9F9FB;
+    /* background-color: #F9F9FB; */
     margin: 0 auto;
     margin-top: 150px;
 }
@@ -268,7 +268,7 @@ nav a:hover{
     font-weight: 600;
 }
 .resume-grid{
-    margin-top: 180px;
+    margin-top: 200px;
 }
 .box-2{
     padding:0% 20px;
@@ -284,7 +284,7 @@ nav a:hover{
     align-items: center;
 }
 .resume-top{
-    margin: 40px auto;
+    margin: 20px    ;
     font-size: 30px;
     font-weight: 600;
     color: #252B33;
@@ -326,6 +326,7 @@ nav a:hover{
     color: #4C4D4D;
     font-size: 20px;
 }
+
 
 @media(max-width:1200px){
     .nav{
@@ -380,5 +381,102 @@ nav a:hover{
     .users{
         font-size: 10px;
     }
-    
+    .ico-grid{
+        margin: 30px auto;
+        padding: 10px;
+        gap: 40px;
+    }
+    .line2{
+        height: 40px;
+    }
+    .ico{
+        height: 70%;
+    }
+    .resume-grid{
+        margin-top: 80px;
+    }
+    .resume-top{
+        margin-top: 20px;
+    }
+    .header2{
+        margin-top: 90px;
+    }
+    .topics-line{
+        line-height: 25px;
+    }    
+}
+
+
+@media(max-width:600px){
+    nav{
+        height: 8vh;
+    }
+    .logo{
+        height: 30px;
+    }
+    .icon{
+        width: 60px;
+        gap: 10px;
+    }
+    .container{
+        width: 60%;
+        height: 70vh;
+        flex-direction: column-reverse;
+    }
+    .image-div{
+        width: 120%;
+        height: 65%;
+    }
+    .personal-menus{
+        width: 100%;
+        height: 35%;
+        gap: 10px;
+    }
+    .details4{
+        font-size: 30px;
+    }
+    .details1{
+        font-size: 20px;
+    }
+    .details2{
+        font-size: 20px;
+    }
+    .details3{
+        width: 40%;
+        font-size: 15px;
+    }
+    .line{
+        margin-top: 15px;
+    }
+    .details{
+        gap: 30px;
+    }
+    .header{
+        margin-top: 60px;
+    }
+    .header-para{
+        line-height: 35px;
+    }
+    .data{
+        gap: 30px;
+    }
+    .form-details{
+        width: 330px;
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .experiance{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .experiance-years{
+        font-size: 25px;
+    } 
+    .one{
+        gap: 10px;
+        padding: 13px 13px;
+    }
 }
